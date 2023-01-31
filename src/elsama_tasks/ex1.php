@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>first php page</title>
+    <style>
+        .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+    </style>
 </head>
 <body>
     <nav><h1>In-class Task 31.01.2023</h1></nav>
@@ -57,6 +65,6 @@ echo "<table border=1 cellspacing=10 cellpadding=10>
 <h1><strong>4</strong> Take a screenshot that verifies, you have set up the development environment 
 and include it as an image in ex1.php. 
 </h1>
-<img src="" alt="PHP environment" width="500" height="600">
+<img src="media/php-environment.png" alt="PHP environment">
 </body>
 </html>    
