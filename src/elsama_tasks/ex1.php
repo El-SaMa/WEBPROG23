@@ -46,6 +46,9 @@ $g2 = 4;
 $g3 = 5;
 
 echo "<table border=1 cellspacing=10 cellpadding=10>
+  <th>S.N</th>
+  <th>Name</th>
+  <th>Grade</th>
   <td>1</td>
   <td>Pekka Pancakey</td>
   <td>$g1</td>
