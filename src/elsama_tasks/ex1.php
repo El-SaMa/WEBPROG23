@@ -6,11 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>first php page</title>
     <style>
+      html,body,p{
+        font-size: 18px;
+        color:#444;
+      }
         .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+h1{
+  font-size: 28px;
+  margin:30px 5px 30px 5px;
+  color:#222222;
 }
     </style>
 </head>
