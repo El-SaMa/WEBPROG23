@@ -1,30 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>first php page</title>
-    <style>
-      html,body,p{
-        font-size: 18px;
-        color:#444;
-      }
-        .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-h1{
-  font-size: 28px;
-  margin:30px 5px 30px 5px;
-  color:#222222;
-}
-    </style>
-</head>
-<body>
-    <nav><h1>In-class Task 31.01.2023</h1></nav>
+<?php include"header.php"?>
+
+<h1>In-class Task 31.01.2023</h1>
     <h1><strong>3.1</strong> Write a simple PHP script to print your information (Name and your groupid).</h1>
 <?php
 echo "Elsayed Mahmoud </br>";
@@ -55,9 +31,11 @@ $g2 = 4;
 $g3 = 5;
 
 echo "<table border=1 cellspacing=10 cellpadding=10>
+  <tr>
   <th>S.N</th>
   <th>Name</th>
   <th>Grade</th>
+  </tr>
   <td>1</td>
   <td>Pekka Pancakey</td>
   <td>$g1</td>
@@ -77,6 +55,6 @@ echo "<table border=1 cellspacing=10 cellpadding=10>
 <h1><strong>4</strong> Take a screenshot that verifies, you have set up the development environment 
 and include it as an image in ex1.php. 
 </h1>
-<img src="media/php-environment.png" alt="PHP environment">
-</body>
-</html>    
+<img src="media/php-environment.png" alt="PHP environment" width="100%">
+  
+<?php include"footer.php"?>

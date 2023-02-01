@@ -71,7 +71,7 @@
                             IN CLASS EXERCISE
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="src\elsama_tasks\ex1.php">EXERCISE 1</a>
+                            <a class="dropdown-item" href="ex1.php">EXERCISE 1</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">EXERCISE 2</a>
                         </div>
