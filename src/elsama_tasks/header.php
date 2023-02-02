@@ -21,6 +21,40 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="stylulate.css">
 
+    <style>
+    /* Column 11/12 */
+.post-container .article-content{
+ font-size:22px;
+}
+
+
+    /* Column 11/12 */
+.post-container .article-content{
+   max-width:1300px;
+  }
+  
+  /* Table */
+  .container .content-wrapper .post-container .article-container .article-content table{
+   width:40% !important;
+  }
+  
+  /* Table Data */
+  .article-content tr td{
+   border-style:solid;
+   border-width:1px;
+  }
+  
+  /* Heading */
+  .post-container h1{
+   font-size:28px;
+   color:#444;
+   line-height:1.3em;
+   margin-top:40px;
+  }
+
+  
+  </style>
+
 </head>
 
 <body class="wrapper">
@@ -38,7 +72,7 @@
 
         <nav class="navbar navbar-expand-xl  navbar-dark ms-auto pr-3   ">
 
-            <a class="navbar-brand justify-content-start" href="index.html">
+            <a class="navbar-brand justify-content-start" href="index.php">
                 <!-- Liverpool logo in the navbar-->
                 <img class="navbar_logo" src="media/lfc_logo.png" alt="Liverpool FC logo">
             </a>
@@ -54,7 +88,7 @@
                     <li class="nav-item active">
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Video</a>
@@ -73,7 +107,7 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="ex1.php">EXERCISE 1</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">EXERCISE 2</a>
+                            <a class="dropdown-item" href="index.php">EXERCISE 2</a>
                         </div>
                     </li>
 

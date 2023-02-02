@@ -431,13 +431,15 @@ h4 {
     background-color: #B71515;
     margin-bottom: -50px;
     z-index: 20;
-    background-image: url("media/anfield_crop_2.jpg");
+    background-image:url("https://images.unsplash.com/photo-1643796903573-68834ffadcb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNTc5fDB8MXxzZWFyY2h8Nnx8YW5maWVsZHxlbnwwfHx8fDE2NzUyODI4Nzg&ixlib=rb-4.0.3&q=80&w=2560");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     height: 200px;
 
 }
+
+   
 
 .header {
     padding: 30px 50px 30px 50px;

@@ -1,3 +1,4 @@
+</div> <!--content wrapper -->
 <!--################extra content ###############-->
 <article>
 <div class="container text-center text-dark article-container px-4  justify-content-center">
@@ -32,9 +33,6 @@
     </div>
 </div>
 </article>
-
-</div> <!--content wrapper -->
-
 
 <!--####################### FOOTER BEGINS HERE########################-->
 <div class="footer-wrapper">

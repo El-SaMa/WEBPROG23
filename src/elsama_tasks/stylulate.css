@@ -1,3 +1,4 @@
+
 /* Heading */
 .article-container a h4{
    color:#424242;
@@ -121,6 +122,8 @@
    /* Article content */
 .post-container .article-content{
    background-color:#f1f1f1;
+   max-width:1400px;
+
 
   }
    /* Article content */

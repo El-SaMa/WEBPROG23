@@ -57,4 +57,4 @@ and include it as an image in ex1.php.
 </h1>
 <img src="media/php-environment.png" alt="PHP environment" width="100%">
   
-<?php include"footer.php"?>
+<?php include "footer.php";?>
