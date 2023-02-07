@@ -1,14 +1,5 @@
 <?php include "header.php";?>
 
-<div class="content-wrapper wd-75"><!--################CONTENT STARTS###############-->
-            <div class="container post-container ">
-                <div class="container article-container">
-
-                    <!--social icons flyout sticky fixed widget-->
-
-                    <!--social icons flyout sticky fixed widget-->
-
-
                     <div class="article-content justify-content-end col-md-11">
 
                         <h2>Liverpool Triumphs over Manchester United with a 2-1 Victory</h2>
@@ -61,8 +52,5 @@
                 </div>
 
 
-
-            </div>
-        </div> <!-- Post Article Ends here-->
 
 <?php include 'footer.php';?>

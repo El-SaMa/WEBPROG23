@@ -22,8 +22,33 @@
     <link rel="stylesheet" href="stylulate.css">
 
     <style>
+
+        /* Post container */
+.container .post-container{
+ width:1300px !important;
+ background-color:#eeeeee;
+ padding-left:30px;
+ padding-right:30px;
+ padding-top:70px;
+ padding-bottom:70px;
+ border-radius:3px;
+ font-size: 22px;
+}
+
+        /* Container */
+.container .page-heading .container{
+ margin-left:0px;
+ margin-right:0px;
+ border-top-left-radius:0px;
+ border-top-right-radius:0px;
+}
+
 /* Container */
-.footer-wrapper footer .container{
+.container .page-heading .container{
+ width:100% !important;
+}
+/* Container */
+.footer-wrapper footer .container{  
  padding-left:0px;
  padding-right:0px;
  margin-left:0px;
@@ -50,13 +75,6 @@
 .container .footer-wrapper footer{
 
 }
-
-
-    /* Column 11/12 */
-    .post-container .article-content {
-        font-size: 22px;
-    }
-
 
     /* Column 11/12 */
     .post-container .article-content {
@@ -167,5 +185,6 @@
         <div class=" container heading-h1 ">
             <h1> <small>EXCLUSIVE NEWS!</small> SALAH SCORED THE WINNER AGAINST MANU</h1>
         </div>
-    </div>
-    <!--slider wrapper-->
+    </div> <!--slider wrapper-->
+
+    <div class="container post-container content-wrapper wd-75"><!--################CONTENT STARTS###############-->

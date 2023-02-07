@@ -1,3 +1,4 @@
+</div><!--closing content container-->
 <!--####################### FOOTER BEGINS HERE########################-->
 <div class="footer-wrapper w-100">
 <!-- FOOTER BEGINS HERE-->
