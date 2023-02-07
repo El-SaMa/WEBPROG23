@@ -37,22 +37,25 @@
         </div>
     </div>
     <div class="row footer-row-3">
-        <div class=" col-md-6 order-2 order-md-1 float-left">
+        <div class=" col-md-6 order-2 order-md-1 float-left" id="last-modified">
             &copy; Copyright 2023 - Liverpool Fan Club - All Rights Reserved.
         </div>
         <div class="col-md-6 order-1 order-md-1 float-right">
             Sitemap - Privacy Policy - Terms & Conditions - About
         </div>
+        <div class="col-12 order-3 mt-3">
+        <?php 
+    $filename = 'footer.php';
+    echo "The file $filename was last modified: " . date ("F d Y H:i:s.", filemtime($filename));
+    ?>
+        </div>
     </div>
 </div>
+
 
 </footer>
 <!--FOOTER ENDS HERE-->
 </div>
-<!--content wrapper-->
-<!--########################FOOTER ENDS HERE####################-->
-
-<!--site container-->
 
 </body>
 

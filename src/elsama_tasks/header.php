@@ -156,7 +156,6 @@
                         <a class="dropdown-item" href="ex3.php">EXERCISE 3</a>
                     </div>
                 </li>
-
             </ul>
 
             <!--user login links-->
