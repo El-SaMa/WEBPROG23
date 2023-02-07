@@ -1,44 +1,7 @@
-</div> <!--content wrapper -->
-<!--################extra content ###############-->
-<article>
-<div class="container text-center text-dark article-container px-4  justify-content-center">
-    <div class="row">
-        <div class="article-grid latest-box col-lg-4 col-md-12 justify-content-center">
-            <a href="articulate.html"><img class="img-fluid" src="media/andy_robertson.png" alt="Picture of Andy Robertson">
-                <h4>
-                    <b>FEATURE</b> Five takeaways from Andy Robertson's 'We are Liverpool' podcast
-                </h4>
-            </a>
-
-        </div>
-        <div class="article-grid  latest-box col-lg-4 col-md-12 justify-content-center">
-            <a href="articulate.html"><img class="img-fluid" src="media/FA_youth_cup.png" alt="Picture of FA cup">
-                <h4>
-                    <b>ACADEMY</b> FA Youth Cup fifth-round fixture details confirmed
-                </h4>
-            </a>
-
-        </div>
-        <div class="article-grid  latest-box col-lg-4 col-md-12 justify-content-center">
-            <a href="articulate.html"><img class="img-fluid" src="media/matt_beard.png" alt="Picture of Matt">
-                <h4>
-                    <b>LFC WOMEN</b> Matt Beard column: Chelsea situation was disappointing - but we'll
-                    look
-                    forward to cup
-                    football
-                </h4>
-            </a>
-
-        </div>
-    </div>
-</div>
-</article>
-
 <!--####################### FOOTER BEGINS HERE########################-->
-<div class="footer-wrapper">
+<div class="footer-wrapper w-100">
 <!-- FOOTER BEGINS HERE-->
 <footer>
-
 <div class="container text-center mw-100">
 
 

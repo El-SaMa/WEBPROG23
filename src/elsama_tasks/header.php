@@ -14,146 +14,140 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 
     <title>LFC Fan Club</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="stylulate.css">
 
     <style>
-    /* Column 11/12 */
-.post-container .article-content{
- font-size:22px;
+
+        /* Container */
+.container{
+ width:96% !important;
+}
+
+/* Footer */
+.container .footer-wrapper footer{
+
 }
 
 
     /* Column 11/12 */
-.post-container .article-content{
-   max-width:1300px;
-  }
-  
-  /* Table */
-  .container .content-wrapper .post-container .article-container .article-content table{
-   width:40% !important;
-  }
-  
-  /* Table Data */
-  .article-content tr td{
-   border-style:solid;
-   border-width:1px;
-  }
-  
-  /* Heading */
-  .post-container h1{
-   font-size:28px;
-   color:#444;
-   line-height:1.3em;
-   margin-top:40px;
-  }
+    .post-container .article-content {
+        font-size: 22px;
+    }
 
-  
-  </style>
+
+    /* Column 11/12 */
+    .post-container .article-content {
+        max-width: 1300px;
+    }
+
+    /* Table */
+    .container .content-wrapper .post-container .article-container .article-content table {
+        width: 40% !important;
+    }
+
+    /* Table Data */
+    .article-content tr td {
+        border-style: solid;
+        border-width: 1px;
+    }
+
+    /* Heading */
+    .post-container h1 {
+        font-size: 28px;
+        color: #444;
+        line-height: 1.3em;
+        margin-top: 40px;
+    }
+    </style>
 
 </head>
 
-<body class="wrapper">
-    <div class="container ">
+<div class="container ">
 
-        <!--####################### HEADER Begins ##################-->
-        <!--Banner begins Here-->
-        <div class="row topbar">
-        </div>
-        <!--Banner Ends Here-->
+    <!--####################### HEADER Begins ##################-->
+    <!--Banner begins Here-->
+    <div class="row topbar">
+    </div>
+    <!--Banner Ends Here-->
 
-        <div class="row header">
-            <p></p>
-        </div>
+    <div class="row header">
+        <p></p>
+    </div>
 
-        <nav class="navbar navbar-expand-xl  navbar-dark ms-auto pr-3   ">
+    <nav class="navbar navbar-expand-xl  navbar-dark ms-auto pr-3   ">
 
-            <a class="navbar-brand justify-content-start" href="index.php">
-                <!-- Liverpool logo in the navbar-->
-                <img class="navbar_logo" src="media/lfc_logo.png" alt="Liverpool FC logo">
-            </a>
+        <a class="navbar-brand justify-content-start" href="index.php">
+            <!-- Liverpool logo in the navbar-->
+            <img class="navbar_logo" src="media/lfc_logo.png" alt="Liverpool FC logo">
+        </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav topnav float-lg-end">
-                    <li class="nav-item active">
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.php">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Video</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Schedule</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            IN CLASS EXERCISE
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="ex1.php">EXERCISE 1</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="index.php">EXERCISE 2</a>
-                        </div>
-                    </li>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav topnav float-lg-end">
+                <li class="nav-item active">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.php">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Video</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Schedule</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        IN CLASS EXERCISE
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="ex1.php">EXERCISE 1</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="index.php">EXERCISE 2</a>
+                    </div>
+                </li>
 
-                </ul>
+            </ul>
 
-                <!--user login links-->
-                <div class="nav-item user-box ">
+            <!--user login links-->
+            <div class="nav-item user-box ">
 
-                    <a class="nav-link user-link " href="#">
-                        <img src="media/user.svg" width="18" alt="Signup" class="nav-icon"> Join</a>
+                <a class="nav-link user-link " href="#">
+                    <img src="media/user.svg" width="18" alt="Signup" class="nav-icon"> Join</a>
 
 
-                    <a class="nav-link user-link" href="#">Login</a>
-
-
-                </div>
-                <!--user-box login links end-->
-                <div class="nav-item justify-content-end sponser">
-                    <a href="https://www.sc.com/en/"><img src="media/sponser.svg" width="120" alt="sponser"></a>
-                </div>
+                <a class="nav-link user-link" href="#">Login</a>
 
 
             </div>
-        </nav>
-        <!--#################### HEADER ENDS #########################-->
-        <!--################SLIDER ###############-->
-
-
-
-        <div class="page-heading">
-
-
-            <div class=" container heading-h1 ">
-                <h1> <small>EXCLUSIVE NEWS!</small> SALAH SCORED THE WINNER AGAINST MANU</h1>
-
+            <!--user-box login links end-->
+            <div class="nav-item justify-content-end sponser">
+                <a href="https://www.sc.com/en/"><img src="media/sponser.svg" width="120" alt="sponser"></a>
             </div>
+
+
         </div>
-        <!--slider wrapper-->
-        <!--#####################SLIDER END################-->
-        <div class="content-wrapper wd-75"><!--################CONTENT STARTS###############-->
-            <div class="container post-container ">
-                <div class="container article-container">
-
-                    <!--social icons flyout sticky fixed widget-->
-
-                    <!--social icons flyout sticky fixed widget-->
+    </nav>
+    <!--#################### HEADER ENDS #########################-->
+    <!--################SLIDER ###############-->
 
 
-                    <div class="article-content justify-content-end col-md-11">
+
+    <div class="page-heading">
+        <div class=" container heading-h1 ">
+            <h1> <small>EXCLUSIVE NEWS!</small> SALAH SCORED THE WINNER AGAINST MANU</h1>
+        </div>
+    </div>
+    <!--slider wrapper-->
