@@ -151,7 +151,9 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="ex1.php">EXERCISE 1</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="index.php">EXERCISE 2</a>
+                        <a class="dropdown-item" href="ex2.php">EXERCISE 2</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="ex3.php">EXERCISE 3</a>
                     </div>
                 </li>
 
