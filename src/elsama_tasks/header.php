@@ -22,6 +22,24 @@
     <link rel="stylesheet" href="stylulate.css">
 
     <style>
+/* Container */
+.footer-wrapper footer .container{
+ padding-left:0px;
+ padding-right:0px;
+ margin-left:0px;
+ margin-right:0px;
+}
+
+/* Container */
+.container{
+ transform:translatex(0px) translatey(0px);
+}
+
+/* Container */
+.container .footer-wrapper footer .container{
+ width:100% !important;
+}
+
 
         /* Container */
 .container{
