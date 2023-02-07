@@ -1,20 +1,19 @@
 <?php include"header.php"?>
 
 <form method="post" action="variable.php">
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    <div class=row>
+  <div class="mb-3 col">
+    <label for="fname" class="form-label" required>First name</label>
+    <input type="text" class="form-control" id="fname" name="fname" placeholder="First name">
   </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
+  <div class="mb-3 col">
+    <label for="lname" class="form-label" required>Last name</label>
+    <input type="text" class="form-control" id="lname" name="lname" placeholder="Last name">
   </div>
-  <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+</div>
+<div class="d-flex justify-content-center mt-3">
+<button type="submit" class="btn btn-primary w-75">Submit</button>
+</div>
 </form>
   
 <?php include "footer.php";?>
