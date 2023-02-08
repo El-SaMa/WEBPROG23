@@ -27,7 +27,7 @@ else
 
 <h1>Task 3</h1>
 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-Enter your grade total: <input type="text" name="total"><br>
+Enter your grade total: <input type="text" name="total" required><br>
 <input type="submit" name="submit">
 </form>
 <?php 
@@ -73,8 +73,41 @@ else
 ?> 
 
 <h1>Task 4</h1>
+<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+Name: <input type="text" name="name" required><br>
+Age: <input type="text" name="age" required><br>
+<input type="submit" name="submit">
+</form>
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = null;
+    $age = null;
+  if (isset($_POST["submit"])){
+  
+  $name = $_POST['name'];
+  $age = $_POST['age'];
+}
+  if (!empty($age || $name) && age >= 18) {
+    echo "Thank you $name, you are eligible to vote.";
+  } else if (!empty($age || $name) && age < 18){
+    echo "Thank you $name, you are not eligible to vote.";
+  } 
+}
+?>
 
 
+
+<h1>Task 5</h1>
+
+<?php
+$browser = $_SERVER['HTTP_USER_AGENT'];
+$browser = get_browser();
+
+
+echo "Your browser information: </br>".$_SERVER['HTTP_USER_AGENT'];
+
+?>
 
   
 <?php include "footer.php";?>
