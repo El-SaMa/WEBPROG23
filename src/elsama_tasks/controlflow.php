@@ -105,8 +105,8 @@ switch ($browser) {
     case (strpos($browser, 'Firefox') == true):
         echo "You're currently using Mozilla Firefox";
         break;
-
-
+    default:
+    echo "Your browser could not be defined";
 }
 
 ?>
