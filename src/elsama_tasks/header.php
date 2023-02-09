@@ -156,6 +156,8 @@
                         <a class="dropdown-item" href="ex3.php">EXERCISE 3</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="controlflow.php">EXERCISE 4 (ControlFlow)</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="array.php">EXERCISE 5  (Array)</a>
                     </div>
                 </li>
             </ul>
