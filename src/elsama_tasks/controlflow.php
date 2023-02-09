@@ -24,6 +24,7 @@ else
 
 ?>
 
+<!--task 3-->
 <h1>Task 3</h1>
 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
     Enter your grade total: <input type="text" name="total" required><br>
@@ -37,12 +38,10 @@ Good >60 & less than 70;
 Pass >50 & less than 60
 Fail <50
 */
-$grade = null;
-$total = null;
-
-if (isset($_POST["submit"])) {
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $total = $_POST['total'];
-}
+     $grade = null;
+
 if ($total >= 80) {
     $grade = "Excellent";
     echo "Your grade is $grade";
@@ -57,11 +56,12 @@ if ($total >= 80) {
     echo "Your grade is $grade";
 } else {
     $grade = "Fail";
-    echo "Your grade is $grade";
+    echo "Your grade is <font style='color:red;'> ".$grade ."</font>";
 }
-
+}
 ?>
 
+<!--task 4-->
 <h1>Task 4</h1>
 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
     Name: <input type="text" name="name" required><br>
@@ -70,20 +70,17 @@ if ($total >= 80) {
 </form>
 
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = null;
-    $age = null;
-    if (isset($_POST["submit"])) {
-
+if ($_SERVER["REQUEST_METHOD"] == "POST") { 
         $name = $_POST['name'];
         $age = $_POST['age'];
-    }
-    if (!empty($age || $name) && age >= 18) {
+   
+    if (!empty($age || $name) &&  $age >= 18) {
         echo "Thank you $name, you are eligible to vote.";
-    } else if (!empty($age || $name) && age < 18) {
-        echo "Thank you $name, you are not eligible to vote.";
+    } else if (!empty($age || $name) && $age < 18) {
+        echo "Sorry $name, you are not eligible to vote.";
     }
 }
+
 ?>
 
 
