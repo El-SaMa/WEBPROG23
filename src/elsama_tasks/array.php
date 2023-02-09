@@ -17,18 +17,18 @@ for ($x = 0; $x < $colength; $x++) {
 <h1>Task 2</h1>
 <?php
 
-$courses1=array("PHP", "HTML", "JavaScript", "CMS", "Project");
+$courses1 = array("PHP", "HTML", "JavaScript", "CMS", "Project");
 $colength1 = count($courses1);
 
 for ($x = 0; $x < $colength1; $x++) {
-    
+
     echo "<ul>";
     echo "<li>$courses1[$x]</li>";
     echo "</ul>";
 }
 
 echo "before unset array count was<br>";
-echo count($courses1)."<br>";
+echo count($courses1) . "<br>";
 echo "after unset function to remove an array item <br>";
 unset($courses1[1]);
 echo count($courses1);
@@ -37,7 +37,7 @@ echo count($courses1);
 
 <h1>Task 3</h1>
 <?php
-$courses3=array("A" => "PHP", "B" => "HTML", "C" => "JavaScript", "D" => "CMS", "E" => "Project");
+$courses3 = array("A" => "PHP", "B" => "HTML", "C" => "JavaScript", "D" => "CMS", "E" => "Project");
 asort($courses3);
 echo " <br><h3> a) ascending order sort by value:</h3> <br> ";
 
@@ -68,13 +68,58 @@ foreach ($courses3 as $key => $val) {
 ?>
 <h1>Task 4 <h1>
 
+        <?php
+
+        $courses4 = array("php" => "1", "html" => "2", "javascript" => "3", "cms" => "4", "project" => "5");
+        print_r(array_change_key_case($courses4, CASE_UPPER));
+
+        ?>
+
+
+        <h1>Task 5 <h1>
+
 <?php
 
-$courses4=array("php", "html", "javascript", "cms", "project");
-print_r(array_change_key_case($courses4,CASE_UPPER));
-
-
-
+                $favcolors = array(
+                    "Blue" => "#6495ED",
+                    "Cardinal" => "#DE3163",
+                    "Pastel-Green" => "#9FE2BF",
+                    "Turquoise" => "#40E0D0",
+                    "Pastel-Violet" => "#CCCCFF"
+                );
+                foreach ($favcolors as $key => $val) {
+                    echo " $key: &nbsp;&nbsp;&nbsp; ($val)<br>";
+                }
 ?>
 
-<?php include "footer.php"; ?>
+<h1>Task 6 <h1>
+    <?php 
+    $temps = array(78, 60, 62, 68, 71, 68, 73,85, 66, 64, 76, 63, 75, 76, 73, 68, 62, 73, 72, 65, 
+    74, 62, 62, 65, 64, 68, 73, 75, 79, 73);
+    sort($temps);
+    $average = array_sum($temps) / count($temps);
+
+    echo " <br>Average temperature : ";
+    echo $average;
+
+    echo " <br>List of five lowest temperatures : ";
+    for ($i=0; $i< 5; $i++)
+    { 
+    echo $temps[$i].", ";
+    }
+
+    $temparraylength = count($temps);
+    echo "<br>List of five highest temperatures : ";
+    for ($i=($temparraylength-5); $i< ($temparraylength); $i++)
+    {
+    echo $temps[$i].", ";
+    }
+    
+    
+    
+    
+    ?>
+
+
+
+                <?php include "footer.php"; ?>
