@@ -14,6 +14,7 @@ for ($x = 0; $x < $colength; $x++) {
 
 ?>
 
+<hr>
 <h1>Task 2</h1>
 <?php
 
@@ -34,7 +35,7 @@ unset($courses1[1]);
 echo count($courses1);
 ?>
 
-
+<hr>
 <h1>Task 3</h1>
 <?php
 $courses3 = array("A" => "PHP", "B" => "HTML", "C" => "JavaScript", "D" => "CMS", "E" => "Project");
@@ -66,6 +67,8 @@ foreach ($courses3 as $key => $val) {
 }
 
 ?>
+
+<hr>
 <h1>Task 4 <h1>
 
         <?php
@@ -75,7 +78,7 @@ foreach ($courses3 as $key => $val) {
 
         ?>
 
-
+<hr>
         <h1>Task 5 <h1>
 
 <?php
@@ -91,32 +94,33 @@ foreach ($courses3 as $key => $val) {
                     echo " $key: &nbsp;&nbsp;&nbsp; ($val)<br>";
                 }
 ?>
-
+<hr>
 <h1>Task 6 <h1>
     <?php 
     $temps = array(78, 60, 62, 68, 71, 68, 73,85, 66, 64, 76, 63, 75, 76, 73, 68, 62, 73, 72, 65, 
     74, 62, 62, 65, 64, 68, 73, 75, 79, 73);
-    sort($temps);
-    $average = array_sum($temps) / count($temps);
+    //sort ascending
+    sort($temps); 
 
+   //print average temp
+   $average = array_sum($temps) / count($temps);
     echo " <br>Average temperature : ";
     echo $average;
 
+   //print lowest 5 temps
     echo " <br>List of five lowest temperatures : ";
     for ($i=0; $i< 5; $i++)
     { 
     echo $temps[$i].", ";
     }
 
+    //print highest 5 temps
     $temparraylength = count($temps);
     echo "<br>List of five highest temperatures : ";
     for ($i=($temparraylength-5); $i< ($temparraylength); $i++)
     {
     echo $temps[$i].", ";
     }
-    
-    
-    
     
     ?>
 
