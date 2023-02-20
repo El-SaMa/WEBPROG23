@@ -17,6 +17,7 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
 
+<script src="js/demo.js"></script>
     <title>LFC Fan Club</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="stylulate.css">
@@ -158,6 +159,8 @@
                         <a class="dropdown-item" href="controlflow.php">EXERCISE 4 (ControlFlow)</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="array.php">EXERCISE 5  (Array)</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="demojs.php">JavaScript Demo</a>
                     </div>
                 </li>
             </ul>
