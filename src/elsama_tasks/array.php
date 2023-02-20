@@ -104,11 +104,11 @@ foreach ($courses3 as $key => $val) {
 
    //print average temp
    $average = array_sum($temps) / count($temps);
-    echo " <br>Average temperature : ";
+    echo " <br>Average temperature: ";
     echo $average;
 
    //print lowest 5 temps
-    echo " <br>List of five lowest temperatures : ";
+    echo " <br>List of five lowest temperatures: ";
     for ($i=0; $i< 5; $i++)
     { 
     echo $temps[$i].", ";
@@ -116,7 +116,7 @@ foreach ($courses3 as $key => $val) {
 
     //print highest 5 temps
     $temparraylength = count($temps);
-    echo "<br>List of five highest temperatures : ";
+    echo "<br>List of five highest temperatures: ";
     for ($i=($temparraylength-5); $i< ($temparraylength); $i++)
     {
     echo $temps[$i].", ";
